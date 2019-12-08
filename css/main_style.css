@@ -1,21 +1,21 @@
 .tint-main-colour {
-    color:rgb(54, 136, 184) !important;
+    color: rgb(54, 136, 184) !important;
 }
 
 .navbar-toggler {
-    background-color:rgb(96, 171, 214) !important;
+    background-color: rgb(96, 171, 214) !important;
 }
 
 .btn-primary {
-    background-color:rgb(96, 171, 214) !important;
-    border:solid 1px rgb(46, 103, 136);
+    background-color: rgb(96, 171, 214) !important;
+    border: solid 1px rgb(46, 103, 136);
 }
 
 .tinted-quote-btn {
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    padding:8px 12px;
-    border:solid black 1px;
+    padding: 8px 12px;
+    border: solid black 1px;
 }
 
 .icon-big {
@@ -23,13 +23,34 @@
 }
 
 .icon-col-light {
-    color:rgb(129, 184, 247);
+    color: rgb(170, 223, 248);
 }
 
 .icon-col {
-    color:rgb(116, 197, 235);
+    color: rgb(133, 207, 241);
 }
 
 .icon-col-dark {
-    color:rgb(94, 163, 190);
+    color: rgb(104, 190, 230);
+}
+
+
+/* portfolio */
+
+.portfolio-overflow-container {
+    overflow-x: auto;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.portfolio-item {
+    float: left;
+    width: 300px;
 }
