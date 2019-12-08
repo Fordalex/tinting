@@ -45,12 +45,19 @@
 }
 
 #portfolio .portfolio-item .portfolio-link {
-    width: 100%;
+    border-radius: 10px 10px 0px 0px;
     overflow-y: hidden;
     overflow-x: hidden;
+    width: 300px;
 }
 
 .portfolio-item {
     float: left;
+    width: 300px !important;
+    margin-right: 10px !important;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    border-radius: 0px 0px 10px 10px;
     width: 300px;
 }
